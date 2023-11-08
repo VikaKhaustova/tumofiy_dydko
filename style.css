@@ -1,0 +1,320 @@
+html {
+    zoom: 100%;
+}
+body {
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    left: 0;
+    width: 100%;
+}
+header {
+    position: relative;
+    height: 100px;
+    top: 70px;
+    width: 100%;
+    background-image: linear-gradient(135deg, rgba(234, 234, 234,0.06) 0%, rgba(234, 234, 234,0.06) 50%,rgba(169, 169, 169,0.06) 50%, rgba(169, 169, 169,0.06) 100%),linear-gradient(90deg, rgb(20,20,20),rgb(20,20,20)); background-size: 72px 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {  
+    width: 60%;
+    top: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.nav-link{
+    color: #B44848;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+.nav-link:hover {
+    font-weight: 700;
+    color: #FFFFFF;
+    transition: 0.2s ease-in;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    top: 100px;
+}
+
+.info{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 7vw;
+}
+
+.info-div{
+    position: absolute;
+    left: 5%;
+    width: 50%;
+}
+.info-img{
+    position: absolute;
+    width: 30%;
+    left: 65%;
+}
+.info-div p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.info-butt{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.call-butt{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-image: linear-gradient(266deg, #F00 0%, rgba(106, 41, 41, 0.60) 100%);
+}
+.call-butt:hover{
+    background: #FFFFFF;
+    color: #FFC700;
+    border: 1px solid #FFC700;
+    transition: 0.6s ease-out;
+}
+.menu-butt{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-image: linear-gradient(86deg, #F00 -0.93%, rgba(106, 41, 41, 0.60) 103.18%);
+ 
+}
+.menu-butt:hover{
+    background: #FFC700;
+    color: #FFFFFF;
+    transition: 0.6s ease-out;
+}
+
+.zag {
+    color: #F7DC23;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    -webkit-text-stroke: 1px black;
+}
+
+.menu h2{
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+    text-align: center;
+}
+
+.menu{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    left: 0px;
+    top:0;
+}
+.menu-div{
+    position: relative;
+    left: 88px;
+    margin: 10% 0%;
+}
+.menu-img{
+    width: 30%;  
+}
+.menu-info{
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu-info h3{
+    color: #CA3838;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    -webkit-text-stroke: 1px black;
+}
+.menu-text{
+    width: 80%;
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+
+.sallary{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sales-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sale{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sales h2{
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.sale p{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.about-us{
+    margin-top: 50px;
+    padding: 95px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-us h2{ 
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.about-us p{ 
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-us-text{
+    width: 574px;
+    margin-bottom: 25px;
+}
+
+footer{
+    background-image: linear-gradient(258deg, #CA3838 40.93%, rgba(143, 57, 57, 0.40) 76.62%, rgba(104, 57, 57, 0.00) 100%);
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.phone{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.socials{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer-info{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 70px;
+}
+.image-right{
+    width: 74px;
+    float: right;
+}
+
+.image-left{
+    width: 74px;
+    float: left;
+}
+
+.footer-socials-img{
+    float: left;
+    width: 220px;
+    margin-left: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+.logo-footer{
+    float: right;
+    width: 200px;
+}
+
+.phone_number{
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
